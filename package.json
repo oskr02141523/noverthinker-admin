@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "NoverThinker Admin Panel - Task library management and content moderation",
     "private": true,
+    "type": "module",
     "scripts": {
       "dev": "vite",
       "build": "tsc && vite build",
@@ -31,6 +32,7 @@
       "zod": "^3.22.4"
     },
     "devDependencies": {
+      "@types/node": "^20.10.0",
       "@types/react": "^18.2.47",
       "@types/react-dom": "^18.2.18",
       "@typescript-eslint/eslint-plugin": "^6.18.0",
